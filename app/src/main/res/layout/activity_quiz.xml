@@ -5,14 +5,89 @@
     android:background="@color/black">
 
     <TextView
-        android:layout_width="match_parent"
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="354dp"
-        android:text="Hey ankur sexy"
-        android:gravity="center"
+        android:text="Question: 1/n"
         android:textColor="@color/white"
-        android:textSize="30sp">
+        android:textSize="18sp"
+        android:layout_margin="15dp">
 
     </TextView>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0 "
+        android:textSize="22sp"
+        android:layout_below="@id/ques"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="44dp"
+        android:text="00:20"
+        android:textColor="@color/white"
+        android:textSize="37sp">
+
+    </TextView>
+    <RadioGroup
+        android:id="@+id/radioGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="option 1"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="option 2"
+            android:layout_below="@id/option1"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="option C"
+            android:layout_below="@id/option2"
+            android:textColor="@color/white"
+            android:textSize="20sp">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:layout_margin="50dp"
+        android:layout_below="@+id/radioGrp"
+        android:backgroundTint="@color/purple_700"/>
+
+
 </RelativeLayout>
