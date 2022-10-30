@@ -8,10 +8,10 @@
         android:id="@+id/ques"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Question: 1/n"
+        android:text="Question: 1/N"
         android:textColor="@color/white"
-        android:textSize="18sp"
-        android:layout_margin="15dp">
+        android:textSize="20sp"
+        android:layout_margin="14dp">
 
     </TextView>
 
@@ -20,10 +20,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Score: 0 "
-        android:textSize="22sp"
+        android:textSize="24sp"
         android:layout_below="@id/ques"
         android:textColor="@color/white"
-        android:layout_margin="15dp"
+        android:layout_margin="14dp"
         >
     </TextView>
 
@@ -32,12 +32,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_margin="15dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="44dp"
+        android:layout_margin="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="42dp"
         android:text="00:20"
         android:textColor="@color/white"
-        android:textSize="37sp">
+        android:textSize="39sp">
 
     </TextView>
     <RadioGroup
@@ -52,7 +52,7 @@
             android:layout_centerInParent="true"
             android:text="option 1"
             android:textColor="@color/white"
-            android:textSize="20sp">
+            android:textSize="22sp">
 
         </RadioButton>
         <RadioButton
@@ -63,7 +63,7 @@
             android:text="option 2"
             android:layout_below="@id/option1"
             android:textColor="@color/white"
-            android:textSize="20sp">
+            android:textSize="22sp">
 
         </RadioButton>
         <RadioButton
@@ -74,7 +74,7 @@
             android:text="option C"
             android:layout_below="@id/option2"
             android:textColor="@color/white"
-            android:textSize="20sp">
+            android:textSize="22sp">
 
         </RadioButton>
     </RadioGroup>
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:text="Next"
         android:textColor="@color/white"
-        android:layout_margin="50dp"
+        android:layout_margin="48dp"
         android:layout_below="@+id/radioGrp"
         android:backgroundTint="@color/purple_700"/>
 
