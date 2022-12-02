@@ -11,12 +11,15 @@
         android:id="@+id/btnQuizApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Quiz App"
-        android:textSize="65sp"
-        android:textStyle="italic"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
         android:gravity="center"
-        android:textColor="#b92e34"
-        android:layout_margin="40dp">
+        android:text="Quiz App"
+        android:textColor="#B3635C"
+        android:textSize="65sp"
+        android:textStyle="italic">
 
     </TextView>
 
