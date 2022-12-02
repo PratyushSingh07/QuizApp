@@ -30,9 +30,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
         android:layout_marginBottom="271dp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="#43A8F4"
         android:text="START"
         android:textSize="25sp"
         app:cornerRadius="20dp">
